@@ -6,7 +6,7 @@
   /* colors*/
   --hue-color: 242;
   /* hls color model*/
-  --skin-color: hsl(342, 92%, 46%);
+  --skin-color: hsl(334, 92%, 46%);
   --title-color: hsl(var(--hue-color), 8%, 95%);
   --text-color: hsl(var(--hue-color), 8%, 85%);
   --body-color: hsl(var(--hue-color), 19%, 5%);
@@ -752,7 +752,7 @@ cursor: pointer;
 }
 
  .services__container{
-   grid-template-columns:  repeat(3,250px);
+   grid-template-columns:  repeat(4,250px);
    justify-content: center;
    column-gap: 1.8rem;
  }
@@ -831,9 +831,11 @@ cursor: pointer;
   cursor: pointer;
 }
 
-.services__modal-title,
-.services__modal-description{
+.services__modal-title{
   text-align: center;
+}
+.services__modal-description{
+  text-align: left;
 
 }
 .services__modal-title{
