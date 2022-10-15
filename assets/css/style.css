@@ -613,6 +613,14 @@ input {
   align-items: center;
   justify-content: center;
 }
+.work__card-button {
+	display: flex;
+	width: 17%;
+	justify-content: space-between;
+  align-items: center;
+	color: #e10967;
+	background-color:#16161d ;
+}
 
 .portfolio__item-details {
 	display: none;
@@ -637,6 +645,7 @@ input {
 	align-items: center;
 	column-gap: 0.25rem;
 	cursor: pointer;
+	background-color:#16161d ;
 }
 
 .work__button-icon {

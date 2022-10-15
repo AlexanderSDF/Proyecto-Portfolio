@@ -152,3 +152,9 @@ function navHighlighter(){
     })
 
 }
+/* Contador de visitas  */
+let contador = 0;
+
+function contadorClicIncrementa(){
+    document.getElementById("counting").innerHTML = ++contador;
+}
