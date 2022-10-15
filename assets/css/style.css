@@ -1220,3 +1220,8 @@ color: var(--skin-color)
     align-items: center;
   }
 }
+@media screen and (max-width: 650px) {
+  .work__card {
+    height: 200px;
+  }
+}
