@@ -608,6 +608,10 @@ input {
 	background-color: var(--box-color);
 	padding: 1.25rem;
 	border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .portfolio__item-details {
